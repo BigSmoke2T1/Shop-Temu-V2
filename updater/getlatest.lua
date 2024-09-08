@@ -7,35 +7,35 @@ local function temu_updater()
         lib1 = appdata_path.."\\scripts\\lib\\shoptemu\\a.luac",
         lib2 = appdata_path.."\\scripts\\lib\\shoptemu\\nig.luac",
         lib3 = appdata_path.."\\scripts\\lib\\shoptemu\\g.luac",
-        lib4 = appdata_path.."\\scripts\\lib\\shoptemu\\tunables.luca",
+        lib4 = appdata_path.."\\scripts\\lib\\shoptemu\\tunables.luac",
         lib5 = appdata_path.."\\scripts\\lib\\shoptemu\\misc.luac",
         lib6 = appdata_path.."\\scripts\\lib\\shoptemu\\unlock.luac",
         lib7 = appdata_path.."\\scripts\\lib\\shoptemu\\heist.luac",
     }
 
+    local base_url = "https://raw.githubusercontent.com/BigSmoke2T1/Shop-Temu-V2/main/updater/script/"
     local files = {
-        main = "https://raw.githubusercontent.com/yourusername/yourrepo/main/temu.lua",
-        lib1 = "https://raw.githubusercontent.com/yourusername/yourrepo/main/lib/shoptemu/file1.lua",
-        lib2 = "https://raw.githubusercontent.com/yourusername/yourrepo/main/lib/shoptemu/file2.lua",
-        lib3 = "https://raw.githubusercontent.com/yourusername/yourrepo/main/lib/shoptemu/file3.lua",
-        lib4 = "https://raw.githubusercontent.com/yourusername/yourrepo/main/lib/shoptemu/file4.lua",
-        lib5 = "https://raw.githubusercontent.com/yourusername/yourrepo/main/lib/shoptemu/file5.lua",
-        lib6 = "https://raw.githubusercontent.com/yourusername/yourrepo/main/lib/shoptemu/file6.lua",
-        lib7 = "https://raw.githubusercontent.com/yourusername/yourrepo/main/lib/shoptemu/file7.lua",
-        lib8 = "https://raw.githubusercontent.com/yourusername/yourrepo/main/lib/shoptemu/file8.lua"
+        main = base_url.."temu.luac",
+        lib1 = base_url.."lib/shoptemu/a.luac",
+        lib2 = base_url.."lib/shoptemu/nig.luac",
+        lib3 = base_url.."lib/shoptemu/g.luac",
+        lib4 = base_url.."lib/shoptemu/tunables.luac",
+        lib5 = base_url.."lib/shoptemu/misc.luac",
+        lib6 = base_url.."lib/shoptemu/unlock.luac",
+        lib7 = base_url.."lib/shoptemu/heist.luac",
     }
 
     for k, v in pairs(files) do
-        local responseCode, file = web.get(v)
-        if responseCode == 200 then
+        local response, file = web.get(v)
+        if response == 200 then
             files[k] = file
         else
-            status = false
-            break
+            status = "Failed to download " .. k .. " (HTTP " .. response .. ")"
+            return status
         end
     end
 
-    if status then
+    if status == true then
         for k, v in pairs(files) do
             local currentFile = io.open(filePaths[k], "w+b")
             if currentFile then
@@ -44,7 +44,7 @@ local function temu_updater()
                 currentFile:close()
             else
                 status = "ERROR REPLACING " .. k
-                break
+                return status
             end
         end
     end
