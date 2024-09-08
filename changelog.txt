@@ -1,0 +1,17 @@
+
+## Shop Temu 2.13.4
+
+- Added Max BM Payout (no special cargo)
+- Added Set Max Price for businesses (no multiplier, use 2nd buyer when you can)
+- Added different methods to Leave Online
+- Added Transaction Monitor for 300k loop and increase all production, see feature hints
+- Added back Auto Session Switcher
+- Added Infinite Casino Wheel Spins
+- Added Get Casino Wheel Prize (not rig, get prize immediately. Need to be inside of casino)
+- Added some more teleports
+- Added some hints
+- Allow Solo Heist will now automatically turn off and remind user when there are other players
+- Cooldown timer no longer starts after instant finish if you don't have auto start on
+- Removed some useless tunables I mistakenly included in Enable Disabled Vehicles
+- Bunch of fuck-off fixes and improvements, aint nobody remember allat
+- Improved load/unload speed
