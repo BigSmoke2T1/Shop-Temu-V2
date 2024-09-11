@@ -1,5 +1,12 @@
-## Shop Temu 2.15.1
+## Shop Temu 2.16.1
 
-- Added Auto Updater
-- Added Save Settings
-- Tweaked some host checks
+- Added 4M Nightclub Loop (Beta)
+- Added Start CEO/MC
+- Added Get Free Faggio/Weevil
+- Added Set Gun Van Weapons
+- Added TP Gun Van To Me
+- Added Unlock Bat & Knife liveries
+- Added back Cargo Loop but is hidden/disabled, waiting on certain scam script to start selling it again.
+- General improvements to Business section
+
+Features Control is implemented. Some features will now rely on HTTP GET to initialize. This will allow me to hide potentially detected methods in the future as soon as possible without having to update.
