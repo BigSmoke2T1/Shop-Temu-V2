@@ -10,3 +10,5 @@
 - General improvements to Business section
 
 Features Control is implemented. Some features will now rely on HTTP GET to initialize. This will allow me to hide potentially detected methods in the future as soon as possible without having to update.
+
+v2.16.2 small bugfix
