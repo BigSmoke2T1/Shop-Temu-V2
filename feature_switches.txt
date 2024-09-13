@@ -1,4 +1,4 @@
-cargo_loop_switch = false
+cargo_loop_switch = true
 nightclub_loop_switch = true
 op_money_switch = true
 orbital_refund_switch = true
