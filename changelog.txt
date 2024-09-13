@@ -1,3 +1,4 @@
-## Shop Temu 2.16.3
+## Shop Temu 2.16.4
 
-- Fixed 4M loop for lower fps users
+- Fixed Reset Character
+- Added some randomization to payouts
