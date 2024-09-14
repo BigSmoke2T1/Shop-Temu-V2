@@ -1,3 +1,4 @@
-## Shop Temu 2.17.1
+## Shop Temu 2.17.2
 
-- Enabled a safer variant of Special Cargo Loop (Rockstar x2 Special Cargo Event)
+- Enabled a safer variant of Special Cargo Loop (Rockstar x2 Special Cargo Event) Under Business - Special Cargo
+- Pre-update for og cargo loop
