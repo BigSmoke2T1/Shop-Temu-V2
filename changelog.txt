@@ -1,4 +1,5 @@
-## Shop Temu 2.17.3
+## Shop Temu 2.18.0
 
-- Added some miscellaneous stuff you might need
-- Added Fake Money Loop from feature request
+- Added Unlock All Awards
+- Fixed some loops hanging under certain conditions
+- Made cargo loop a bit more speedy
