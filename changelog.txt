@@ -1,5 +1,5 @@
-## Shop Temu 2.18.0
+## Shop Temu 2.18.1
 
 - Added Unlock All Awards
-- Fixed some loops hanging under certain conditions
-- Made cargo loop a bit more speedy
+- Disabled cargo loop and 300k nightclub loop
+- Some fixes
