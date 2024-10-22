@@ -3,4 +3,4 @@ nightclub_loop_switch = true
 op_money_switch = true
 orbital_refund_switch = true
 vehicle_sell_switch = true
-safe_cargo_switch = true
+safe_cargo_switch = false
