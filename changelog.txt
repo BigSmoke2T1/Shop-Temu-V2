@@ -1,5 +1,4 @@
-## Shop Temu 2.18.1
+## Shop Temu 2.18.2
 
-- Added Unlock All Awards
-- Disabled cargo loop and 300k nightclub loop
-- Some fixes
+- Excluded Special Cargo from Increasae All Production
+- Fixed a check
