@@ -1,4 +1,3 @@
-## Shop Temu 2.18.2
+## Shop Temu 2.18.3
 
-- Excluded Special Cargo from Increasae All Production
-- Fixed a check
+- Fuck Master Unlocker
