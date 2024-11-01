@@ -1,6 +1,6 @@
-cargo_loop_switch = true
+cargo_loop_switch = false
 nightclub_loop_switch = true
 op_money_switch = false
 orbital_refund_switch = true
 vehicle_sell_switch = true
-safe_cargo_switch = true
+safe_cargo_switch = false
