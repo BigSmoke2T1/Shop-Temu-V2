@@ -1,3 +1,4 @@
-## Shop Temu 2.18.3
+## Shop Temu 2.18.4
 
-- Fuck Master Unlocker
+- Added cayo editor for people who wanted to use menu to prep then play legit.
+- Fixed 15M Apt heists to work with 2x events this week.
