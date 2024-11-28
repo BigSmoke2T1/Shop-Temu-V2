@@ -1,4 +1,3 @@
-## Shop Temu 2.18.4
+## Shop Temu 2.18.5
 
-- Added cayo editor for people who wanted to use menu to prep then play legit.
-- Fixed 15M Apt heists to work with 2x events this week.
+- Minor changes so w/e
