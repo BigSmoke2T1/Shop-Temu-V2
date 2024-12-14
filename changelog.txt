@@ -1,3 +1,4 @@
-## Shop Temu 2.19.0
+## Shop Temu 2.19.1
 
-- Updated for GTA:O b3411
+- Added New DLC Unlocks (trade prices, clothing)
+- Added Unlock Dripfeed Vehicles
