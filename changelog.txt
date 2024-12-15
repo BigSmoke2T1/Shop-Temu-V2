@@ -1,4 +1,8 @@
-## Shop Temu 2.19.1
+## Shop Temu 2.20.0
 
-- Added New DLC Unlocks (trade prices, clothing)
-- Added Unlock Dripfeed Vehicles
+- Added Skip to Finale for DLC hacker missions
+- Added Remote Hacker Den
+- Added Remove Cooldown for all hacker missions
+- Added instant finish for all hacker missions
+- Added more dripfeed vehicles
+- Added more awards for latest two DLCs
