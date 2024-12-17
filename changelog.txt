@@ -1,8 +1,6 @@
-## Shop Temu 2.20.0
+## Shop Temu 2.20.1
 
-- Added Skip to Finale for DLC hacker missions
-- Added Remote Hacker Den
-- Added Remove Cooldown for all hacker missions
-- Added instant finish for all hacker missions
-- Added more dripfeed vehicles
-- Added more awards for latest two DLCs
+- Added more Agents of Sabotage Unlocks
+- Added more Agents of Sabotage Awards
+- Added more Agents of Sabotage Dripfeed Content
+- Removed a notification due to latest 2Take1Menu update
