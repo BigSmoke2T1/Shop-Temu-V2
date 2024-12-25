@@ -1,6 +1,14 @@
-## Shop Temu 2.20.1
+## Shop Temu 2.21.0
 
-- Added more Agents of Sabotage Unlocks
-- Added more Agents of Sabotage Awards
-- Added more Agents of Sabotage Dripfeed Content
-- Removed a notification due to latest 2Take1Menu update
+- Added Bail Office Menu under Business
+    - Added Refresh Bounty Target
+    - Added Teleport to Bail Office
+    - Added Instant Processing
+    - Added Instant Staff Returning
+    - Added Bail Office Safe Loop (All credit to Sub1to)
+    - Added Bail Office Remote Safe Loop (All credit to Sub1to)
+    - Added Instant Finish Bail Office Jobs (normal & HVT)
+- Added Remove Pizza Work Cooldown
+- Added few more new dlc unlocks
+- Removed Discord Invite
+- Rewrote some notifications
