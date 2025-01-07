@@ -1,14 +1,15 @@
-## Shop Temu 2.21.0
+## Shop Temu 2.22.0
 
-- Added Bail Office Menu under Business
-    - Added Refresh Bounty Target
-    - Added Teleport to Bail Office
-    - Added Instant Processing
-    - Added Instant Staff Returning
-    - Added Bail Office Safe Loop (All credit to Sub1to)
-    - Added Bail Office Remote Safe Loop (All credit to Sub1to)
-    - Added Instant Finish Bail Office Jobs (normal & HVT)
-- Added Remove Pizza Work Cooldown
-- Added few more new dlc unlocks
-- Removed Discord Invite
-- Rewrote some notifications
+- Added Casino Dual Keycard Patch
+    - Enables casino heist content to be completed alone, to some degree
+    - You can play now play Aggressive approach alone, enter through main gate, rest as usual
+    - Silent & Sneaky will misbehave unless you get spotted by the guard intentionally on the first floor, which just turns into aggressive
+    - Big Con will misbehave when you finish looting and exit the casino unless after looting you intentionally get caught by a guard
+    - In doing so, you will get kicked out of casino, but the mission will magically progress, cuz it's Rockstar logic
+- Added more Casino Heist minigames to Auto Minigames
+- Added more dripfeed unlocks
+- Added more weapons to gun van
+- Removed BM Helper for safety reasons
+- Removed all the goods price editing & multipliers for safety reasons
+
+
